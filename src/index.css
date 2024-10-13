@@ -1,0 +1,39 @@
+:root {
+  --bodyBkgColor: #ece7e7;
+  --firstBkgColor: #c0bebe;
+  --secondBkgColor: #aaa3a5;
+  --thirdBkgColor: #928991;
+  --fourthBkgColor: #75717f;
+  --fifthBkgColor: #545c6d;
+  --sixthBkgColor: #2f4858;
+  --seventhBkgColor: #3b6664;
+  --eighthBkgColor: #3b6664;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  background-color: var(--bodyBkgColor);
+}
+div.button {
+  display: flex;
+  /* margin-bottom: 1rem; */
+}
+div > button {
+  background-color: var(--sixthBkgColor);
+  width: 10rem;
+  padding: 0.5rem 2rem;
+  white-space: none;
+  color: whitesmoke;
+  border-color: var(--seventhBkgColor);
+  margin-inline: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}

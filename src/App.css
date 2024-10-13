@@ -1,0 +1,12 @@
+.App {
+  border: 3px solid grey;
+  min-height: 100dvh;
+  padding-bottom: 2rem;
+
+  header {
+    margin: 5px 0;
+  }
+}
+.centered {
+  text-align: center;
+}

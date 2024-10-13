@@ -1,0 +1,14 @@
+.hobbieItem {
+  background-color: var(--thirdBkgColor);
+  border: 2px solid var(--seventhBkgColor);
+  margin-bottom: 1rem;
+  label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}

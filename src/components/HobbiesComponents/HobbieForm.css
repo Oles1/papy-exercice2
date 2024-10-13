@@ -1,0 +1,12 @@
+.hobbieForm {
+  border: 2px solid var(--seventhBkgColor);
+  width: 50%;
+  margin-inline: auto;
+  background-color: var(--secondBkgColor);
+  /* border-radius: 12px; */
+}
+@media (max-width: 600px) {
+  .hobbieForm {
+    width: 80%;
+  }
+}
